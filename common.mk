@@ -51,11 +51,6 @@ endif
 # failing which, they are picked from bionic.
     common_deps += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
     kernel_includes += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
-#endif
-
-ifeq ($(TARGET_DISPLAY_USE_RETIRE_FENCE),true)
-    common_flags += -DUSE_RETIRE_FENCE
-endif
 
 ifneq ($(TARGET_DISPLAY_INSECURE_MM_HEAP),true)
     common_flags += -DSECURE_MM_HEAP
