@@ -1,12 +1,12 @@
 #Common headers
-common_includes := hardware/qcom/display/libgralloc
-common_includes += hardware/qcom/display/liboverlay
-common_includes += hardware/qcom/display/libcopybit
-common_includes += hardware/qcom/display/libqdutils
-common_includes += hardware/qcom/display/libhwcomposer
-common_includes += hardware/qcom/display/libexternal
-common_includes += hardware/qcom/display/libqservice
-common_includes += hardware/qcom/display/libvirtual
+common_includes := hardware/qcom/display-caf/msm8960/libgralloc
+common_includes += hardware/qcom/display-caf/msm8960/liboverlay
+common_includes += hardware/qcom/display-caf/msm8960/libcopybit
+common_includes += hardware/qcom/display-caf/msm8960/libqdutils
+common_includes += hardware/qcom/display-caf/msm8960/libhwcomposer
+common_includes += hardware/qcom/display-caf/msm8960/libexternal
+common_includes += hardware/qcom/display-caf/msm8960/libqservice
+common_includes += hardware/qcom/display-caf/msm8960/libvirtual
 common_includes += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
 
 common_header_export_path := qcom/display
